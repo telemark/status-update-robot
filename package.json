@@ -1,7 +1,7 @@
 {
   "name": "status-update-robot",
   "description": "Prepares documents for archive",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "private": true,
   "author": {
