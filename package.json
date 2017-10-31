@@ -1,7 +1,7 @@
 {
   "name": "status-update-robot",
   "description": "Updates status",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "license": "MIT",
   "private": true,
   "author": {
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.4.0"
+    "node": ">=8.8.1"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -37,12 +37,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/telemark/status-update-robot"
+    "url": "git+https://github.com/telemark/status-update-robot"
   },
   "bugs": {
     "url": "https://github.com/telemark/status-update-robot/issues"
   },
-  "homepage": "https://github.com/telemark/status-update-robot",
+  "homepage": "https://github.com/telemark/status-update-robot#readme",
   "devDependencies": {
     "ava": "0.23.0",
     "coveralls": "3.0.0",
@@ -54,7 +54,7 @@
     "axios": "0.17.0",
     "jsonwebtoken": "8.1.0",
     "uuid": "3.1.0",
-    "winston": "3.0.0-rc0",
+    "winston": "2.4.0",
     "winston-papertrail": "1.0.5"
   }
 }
